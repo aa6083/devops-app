@@ -77,10 +77,10 @@ http.createServer((req, res) => {
 
     <body>
         <div class="card">
-            <h1>🚀 DevOps ${version}</h1>
+            <h1>DevOps ${version}</h1>
             <div class="badge">${version.toUpperCase()} ENV</div>
             <p>CI/CD Pipeline is working perfectly!</p>
-            <p>Jenkins + Docker 🚀</p>
+            <p>Jenkins + Docker </p>
         </div>
     </body>
     </html>
