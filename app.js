@@ -8,7 +8,7 @@ http.createServer((req, res) => {
     res.end(`
         <html>
         <body style="background:#111;color:white;text-align:center;margin-top:100px;">
-            <h1>🚀 DevOps ${version} Version</h1>
+            <h1> DevOps ${version} Version</h1>
             <p>CI/CD Pipeline is working!</p>
             <p>Powered by Jenkins + Docker</p>
         </body>
