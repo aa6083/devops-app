@@ -33,7 +33,7 @@ http.createServer((req, res) => {
         </head>
         <body>
             <div class="box">
-                <h1>🚀 Hello DevOps!</h1>
+                <h1> DevOps VLE 7!</h1>
                 <p>CI/CD Pipeline is working successfully!</p>
                 <p>Powered by Jenkins + Docker</p>
             </div>
