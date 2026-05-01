@@ -46,7 +46,7 @@ input {
 <body>
 
 <div class="container">
-    <h1>🏥 Healthcare Management System</h1>
+    <h1>Healthcare Management System</h1>
     <p>Secure DevSecOps Enabled Application</p>
 
     <div class="card">
