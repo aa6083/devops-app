@@ -77,7 +77,7 @@ http.createServer((req, res) => {
     <body>
         <div class="card">
             <h1> ${version} Environment</h1>
-            <p>HELLLLLLLLLLLLLLLLLLLLLLLO</p>
+            <p>CI/CD Pipeline is working!</p>
 
             <button onclick="window.location.href='${current.switchUrl}'">
                 ${current.button}
