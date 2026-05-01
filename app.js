@@ -6,7 +6,7 @@ http.createServer((req, res) => {
     res.end(`
         <html>
         <head>
-            <title>Healthcare DevOps App</title>
+            <title>DevOps App</title>
             <style>
                 body {
                     background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
@@ -51,7 +51,7 @@ http.createServer((req, res) => {
         <body>
 
             <div class="box">
-                <h1> Healthcare System</h1>
+                <h1> DevOps VLE 7!</h1>
                 <h2>CI/CD Pipeline (Exp 7)</h2>
 
                 <p>✔ Application Deployed Successfully</p>
