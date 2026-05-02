@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: devops-blue
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: devops-app
+      version: blue
+  template:
+    metadata:
+      labels:
+        app: devops-app
+        version: blue
+    spec:
+      containers:
+      - name: devops-app
+        image: devops-app
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 3000
+        env:
+        - name: VERSION
+          value: "Blue"
